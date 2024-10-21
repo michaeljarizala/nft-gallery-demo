@@ -3,6 +3,8 @@ A hobby project for listing down minted NFTs for the current MetaMask account.
 
 The project utilizes the Amoy testnet for demo purposes, using a ERC721 smart contract that was written manually for this purpose. A copy of the contract files are included here for reference and testing.
 
+Live demo to this project is available at: [nft-gallery-demo.vercel.app](https://nft-gallery-demo.vercel.app/)
+
 ## Objectives
 1. Connect to a MetaMask wallet
 2. Detection during account change/switch
@@ -75,12 +77,15 @@ NEXT_PUBLIC_SUPPORTED_NETWORKS={ "80002": { "name": "Amoy Testnet", "slug": "amo
 NEXT_PUBLIC_OPENSEA_API_KEY=18f1b296eaec4716997f4b410ee60dfe
 ```
 
-### SMART CONTRACT
+### Smart Contract & Arts Assets
 I have also written a simple ERC721 contract just enough for us to perform minting operation.
 The sample NFT arts as well as the relevant metadata files we used in this project are uploaded to Piñata.
 
 The smart contract files are included in this project within `./utils/contract` directory. And here is the contract address for the one deployed in the demo video:<br />
 [0xec2A11A48D8A96FC952A5eff90414cfcC0c51fc4](https://amoy.polygonscan.com/address/0xec2a11a48d8a96fc952a5eff90414cfcc0c51fc4)
+
+All arts and metadata files are uploaded in this Google Drive link: <br/>
+[Arts & Metadata](https://drive.google.com/drive/folders/11uCF6z04wNJ-2B47ygjkY6gIHtgR2swH?usp=drive_link)
 
 For overall demonstration brief discussion from me, I have created a short video which you can check via the Google Drive link below: <br/>
 [Demo Video](https://drive.google.com/file/d/1H0X2ZbMvwp3EM7m4vIKApD8cdsY2_w9q/view?usp=sharing)
