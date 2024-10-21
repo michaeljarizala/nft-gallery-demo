@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Inft } from "@/utils/interfaces/nft";
+import { Inft } from "@/utils/contexts/nftContext";
 
 interface Props {
   nft: Inft
